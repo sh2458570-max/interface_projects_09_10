@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<NameSpace>
-  <Item name="temperature_c" defaultValue="0">10</Item>
-  <Item name="alarm" defaultValue="0">6</Item>
-</NameSpace>
