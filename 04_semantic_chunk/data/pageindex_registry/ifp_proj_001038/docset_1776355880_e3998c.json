@@ -1,0 +1,44 @@
+{
+  "project_id": "ifp_proj_001038",
+  "dataset_id": "ifp_ds_001038",
+  "doc_set_id": "docset_1776355880_e3998c",
+  "index_ref": "idx_1776355880",
+  "status": "ready",
+  "protocol_type": "J12.0",
+  "message_codes": [],
+  "tags": [],
+  "workspace_dir": "/home/hks/sh/interface_projects/04_semantic_chunk/data/pageindex_workspace/ifp_proj_001038/docset_1776355880_e3998c",
+  "docs_dir": "/home/hks/sh/interface_projects/04_semantic_chunk/data/pageindex_docs/ifp_proj_001038/docset_1776355880_e3998c",
+  "document_count": 1,
+  "documents": [
+    {
+      "doc_id": "9c1ba9f0bfeec7062b790021cb8ac614",
+      "file_name": "MIL-STD-6016D_J12_excerpt.pdf",
+      "normalized_path": "/home/hks/sh/interface_projects/04_semantic_chunk/data/pageindex_docs/ifp_proj_001038/docset_1776355880_e3998c/mil-std-6016d_j12_excerpt.pdf_a3d3b2a193d4.md",
+      "file_hash": "a3d3b2a193d49e4aaeb99b9aa269e24806ce8fbec8aa1d2249bd1b580dc66a54",
+      "protocol_type": "J12.0",
+      "message_codes": [],
+      "tags": [],
+      "source_block_ids": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "page_range": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "status": "indexed"
+    }
+  ],
+  "created_at": "2026-04-17T00:11:20",
+  "updated_at": "2026-04-17T00:11:20"
+}

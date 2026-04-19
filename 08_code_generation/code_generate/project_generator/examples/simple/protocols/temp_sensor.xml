@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NameSpace>
+  <Item name="temperature" defaultValue="0">12</Item>
+  <Item name="status" defaultValue="0">4</Item>
+</NameSpace>

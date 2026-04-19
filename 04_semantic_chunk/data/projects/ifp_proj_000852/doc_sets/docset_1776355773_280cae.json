@@ -1,0 +1,29 @@
+{
+  "project_id": "ifp_proj_000852",
+  "dataset_id": "ifp_ds_000852",
+  "doc_set_id": "docset_1776355773_280cae",
+  "index_ref": "idx_1776355773",
+  "protocol_type": "J12.0",
+  "message_codes": [],
+  "tags": [],
+  "document_count": 1,
+  "documents": [
+    {
+      "doc_id": "1fee3c88c315d1cdcceac4fd5cf40039",
+      "file_name": "MIL-STD-6016D_J12_excerpt.pdf",
+      "file_hash": "aac5413a67e9045d4d9c579fa1240c920f6da00ed448d88a820e45e9536d6ce5",
+      "source_block_ids": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "created_at": "2026-04-17T00:09:33"
+}

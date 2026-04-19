@@ -1,0 +1,10 @@
+{
+  "protocol_type": "Link16",
+  "version": "graph-v1",
+  "embedding_model": "qwen3-0.6b-embedding",
+  "description": "Bootstrapped local protocol conversion knowledge graph.",
+  "backend": "local_json_graph",
+  "concepts": [],
+  "field_nodes": [],
+  "edges": []
+}

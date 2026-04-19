@@ -1,0 +1,16 @@
+{
+  "ports": [
+    {
+      "name": "TempSensorIn",
+      "protocol": "temp_sensor",
+      "port": 4100,
+      "feedback_port": 4101
+    },
+    {
+      "name": "TempReportOut",
+      "protocol": "temp_report",
+      "port": 5100,
+      "feedback_port": 5101
+    }
+  ]
+}

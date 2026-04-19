@@ -1,0 +1,35 @@
+{
+  "job_id": "job_real_case_1772374751",
+  "status": "running",
+  "config": {
+    "base_model": "qwen3",
+    "dataset_id": "ds_real_pdf_case",
+    "parameters": {
+      "batch_size": 1,
+      "epoch": 1,
+      "learning_rate": 0.0002,
+      "lora_alpha": 16,
+      "lora_rank": 8,
+      "save_steps": 500
+    }
+  },
+  "progress": {
+    "current_step": 0,
+    "total_steps": 100,
+    "epoch": 0,
+    "percent": 0
+  },
+  "created_at": 1772374751.5089035,
+  "started_at": 1772374751.5094762,
+  "updated_at": 1772374751.5094779,
+  "completed_at": null,
+  "metrics": null,
+  "last_checkpoint": null,
+  "history_points": [],
+  "best_metric": null,
+  "best_checkpoint": null,
+  "model_path": null,
+  "output_dir": "/home/hks/sh/api_05_finetune/models/job_real_case_1772374751",
+  "error": null,
+  "resume_from_checkpoint": null
+}

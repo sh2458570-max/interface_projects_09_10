@@ -1,0 +1,212 @@
+{
+  "project_id": "ifp_proj_130551",
+  "total_blocks": 9,
+  "created_at": "2026-04-17T13:06:20.523959",
+  "blocks": [
+    {
+      "block_id": 1,
+      "page_num": 1,
+      "content": "MIL-STD-6016D\nAPPENDIX M\nM.1.1.3.7 A record of each mission assignment shall be made.\nThe mission assignment record shall contain the information listed in\nTable M.0.10-1. All mission assignment records shall be available for\ndisplay.\nM.1.1.3.8 Transaction M.1.2, Transmission of Mission Assignment,\nshall be stimulated.\nM-61",
+      "type": "text",
+      "metadata": {}
+    },
+    {
+      "block_id": 2,
+      "page_num": 2,
+      "content": "Mission Assignment | J12.0 MAD Value | Transmit Table\nDestruction Orders |  | \nEngage | 5 | Table 5-4-J12.0-1\nPriority Kill | 6 | Table 5-4-J12.0-1\nAttack | 41 | Table 5-4-J12.0-3\nAttack (final execution authority) | 41 | Table 5-4-J12.0-4\nAttack Target Complex | 48 | Table 5-4-J12.0-2\nInterception Orders |  | \nInvestigate/Interrogate | 8 | Table 5-4-J12.0-11\nIntervene | 11 | Table 5-4-J12.0-12\nLaser Designation | 18 | Table 5-4-J12.0-9 followed by Table 5-4-J12.0-10 (Laser Designator Information)\nAerial Reconnaissance | 22 | Table 5-4-J12.0-8\nShadow | 24 | Table 5-4-J12.0-11\nCover | 31 | Table 5-4-J12.0-11\nVisual Identification | 32 | Table 5-4-J12.0-11\nSuppression of Enemy Air Defenses | 39 | Table 5-4-J12.0-7\nArmed Reconnaissance | 40 | Table 5-4-J12.0-8\nFighter Sweep | 45 | Table 5-4-J12.0-19\nProcedural Orders |  | \nRefuel | 1 | Table 5-4-J12.0-16\nOrbit | 2 | Table 5-4-J12.0-15\nRecall | 3 | Table 5-4-J12.0-14\nReturn To Base | 4 | Table 5-4-J12.0-13",
+      "type": "table",
+      "metadata": {
+        "row_count": 30,
+        "col_count": 3,
+        "near_top": false,
+        "near_bottom": false,
+        "source_pages": [
+          2,
+          3,
+          4
+        ],
+        "table_index": 0,
+        "cross_page_merged": true,
+        "protocol_fields": [
+          {
+            "field_name": "MISSION_ASSIGNMENT_DISCRETE",
+            "bit_start": null,
+            "bit_length": null,
+            "meaning": "离散值映射表",
+            "formula": "1=REFUEL, 2=ORBIT, 3=RECALL, 4=RETURN_TO_BASE, 5=ENGAGE, 6=PRIORITY_KILL, 8=INVESTIGATE/INTERROGATE, 9=CLEAR_TO_DROP, 11=INTERVENE, 13=AIR-TO-SURFACE, 14=AIR-TO-AIR, 15=SEARCH_AND_RESCUE, 16=COMBAT_AIR_PATROL, 18=LASER_DESIGNATION, 20=CLOSE_AIR_SUPPORT, 22=AERIAL_RECONNAISSANCE, 23=ESCORT, 24=SHADOW, 31=COVER, 32=VISUAL_IDENTIFICATION, 39=SUPPRESSION_OF_ENEMY_AIR_DEFENSES, 40=ARMED_RECONNAISSANCE, 41=ATTACK, 45=FIGHTER_SWEEP, 48=ATTACK_TARGET_COMPLEX",
+            "range_min": null,
+            "range_max": null
+          }
+        ],
+        "extract_method": "rule",
+        "chunk_index": 0,
+        "total_chunks": 2
+      }
+    },
+    {
+      "block_id": 3,
+      "page_num": 2,
+      "content": "Recall | 3 | Table 5-4-J12.0-14\nReturn To Base | 4 | Table 5-4-J12.0-13\nClear To Drop | 9 | Table 5-4-J12.0-21\nAir-To-Surface | 13 | Table 5-4-J12.0-20\nAir-To-Air | 14 | Table 5-4-J12.0-20\nSearch And Rescue | 15 | Table 5-4-J12.0-17\nCombat Air Patrol | 16 | Table 5-4-J12.0-18\nClose Air Support | 20 | Table 5-4-J12.0-5 followed by Table 5-4-J12.0-6 (CAS Contact Point Information)\nEscort | 23 | Table 5-4-J12.0-12",
+      "type": "table",
+      "metadata": {
+        "row_count": 30,
+        "col_count": 3,
+        "near_top": false,
+        "near_bottom": false,
+        "source_pages": [
+          2,
+          3,
+          4
+        ],
+        "table_index": 0,
+        "cross_page_merged": true,
+        "protocol_fields": [
+          {
+            "field_name": "MISSION_ASSIGNMENT_DISCRETE",
+            "bit_start": null,
+            "bit_length": null,
+            "meaning": "离散值映射表",
+            "formula": "1=REFUEL, 2=ORBIT, 3=RECALL, 4=RETURN_TO_BASE, 5=ENGAGE, 6=PRIORITY_KILL, 8=INVESTIGATE/INTERROGATE, 9=CLEAR_TO_DROP, 11=INTERVENE, 13=AIR-TO-SURFACE, 14=AIR-TO-AIR, 15=SEARCH_AND_RESCUE, 16=COMBAT_AIR_PATROL, 18=LASER_DESIGNATION, 20=CLOSE_AIR_SUPPORT, 22=AERIAL_RECONNAISSANCE, 23=ESCORT, 24=SHADOW, 31=COVER, 32=VISUAL_IDENTIFICATION, 39=SUPPRESSION_OF_ENEMY_AIR_DEFENSES, 40=ARMED_RECONNAISSANCE, 41=ATTACK, 45=FIGHTER_SWEEP, 48=ATTACK_TARGET_COMPLEX",
+            "range_min": null,
+            "range_max": null
+          }
+        ],
+        "extract_method": "rule",
+        "chunk_index": 1,
+        "total_chunks": 2
+      }
+    },
+    {
+      "block_id": 4,
+      "page_num": 2,
+      "content": "MIL-STD-6016D\nAPPENDIX M\nM.1.2 TRANSMISSION OF MISSION ASSIGNMENT\nM.1.2.1 Mission Assignment Transmission Stimulus\nM.1.2.1.1 Transaction M.1.1, Preparation for Transmission of\nMission Assignment (Paragraph M.1.1.3.8).\nM.1.2.2 Mission Assignment Transmission Constraints\nM.1.2.2.1 If any of the following conditions is true, the host\nsystem shall alert (cat 4) the operator and no further processing of\nthis transaction shall be performed:\na. The addressee is not held in own database.\nb. The addressee is held in own database with NPSI set to other\nthan 1 (Active-Non Specific), 3 (Conditional Radio Silent), 4 (High\nError Rate), or 5 (No J0.0 Message Being Received).\nc. The addressee is held in own database as a J2.0 with\nOriginator Environment set to other than value 3 (Air).\nM.1.2.3 Mission Assignment Transmission Processing\nM.1.2.3.1 Mission assignments shall be transmitted in accordance\nwith the appropriate transmit table indicated in Table M.1.2-1.",
+      "type": "text",
+      "metadata": {
+        "protocol_fields": [
+          {
+            "field_name": "MISSION_ASSIGNMENT_DISCRETE",
+            "bit_start": null,
+            "bit_length": null,
+            "meaning": "离散值映射表",
+            "formula": "5=ENGAGE, 6=PRIORITY_KILL",
+            "range_min": null,
+            "range_max": null
+          }
+        ],
+        "extract_method": "rule",
+        "chunk_index": 0,
+        "total_chunks": 2
+      }
+    },
+    {
+      "block_id": 5,
+      "page_num": 2,
+      "content": "with the appropriate transmit table indicated in Table M.1.2-1.\nTABLE M.1.2-1. J12.0 Mission Assignment Transmit Tables (Sheet 1 of\n3)\nJ12.0 MAD\nMission Assignment Transmit Table\nValue\nDestruction Orders\nEngage 5 Table 5-4-J12.0-1\nPriority Kill 6 Table 5-4-J12.0-1\nM-62",
+      "type": "text",
+      "metadata": {
+        "protocol_fields": [
+          {
+            "field_name": "MISSION_ASSIGNMENT_DISCRETE",
+            "bit_start": null,
+            "bit_length": null,
+            "meaning": "离散值映射表",
+            "formula": "5=ENGAGE, 6=PRIORITY_KILL",
+            "range_min": null,
+            "range_max": null
+          }
+        ],
+        "extract_method": "rule",
+        "chunk_index": 1,
+        "total_chunks": 2
+      }
+    },
+    {
+      "block_id": 6,
+      "page_num": 3,
+      "content": "MIL-STD-6016D\nAPPENDIX M\nTABLE M.1.2-1. J12.0 Mission Assignment Transmit Tables (Sheet 2 of\n3)\nJ12.0 MAD\nMission Assignment Transmit Table\nValue\nAttack 41 Table 5-4-J12.0-3\nAttack (final execution\n41 Table 5-4-J12.0-4\nauthority)\nAttack Target Complex 48 Table 5-4-J12.0-2\nInterception Orders\nInvestigate/Interrogate 8 Table 5-4-J12.0-11\nIntervene 11 Table 5-4-J12.0-12\nLaser Designation Table 5-4-J12.0-9\nfollowed by\n18 Table 5-4-J12.0-10\n(Laser Designator\nInformation)\nAerial Reconnaissance 22 Table 5-4-J12.0-8\nShadow 24 Table 5-4-J12.0-11\nCover 31 Table 5-4-J12.0-11\nVisual Identification 32 Table 5-4-J12.0-11\nSuppression of Enemy Air\n39 Table 5-4-J12.0-7\nDefenses\nArmed Reconnaissance 40 Table 5-4-J12.0-8\nFighter Sweep 45 Table 5-4-J12.0-19\nProcedural Orders\nRefuel 1 Table 5-4-J12.0-16\nOrbit 2 Table 5-4-J12.0-15\nRecall 3 Table 5-4-J12.0-14\nReturn To Base 4 Table 5-4-J12.0-13\nClear To Drop 9 Table 5-4-J12.0-21\nAir-To-Surface 13 Table 5-4-J12.0-20\nAir-To-Air 14 Table 5-4-J12.0-20",
+      "type": "text",
+      "metadata": {
+        "protocol_fields": [
+          {
+            "field_name": "MISSION_ASSIGNMENT_DISCRETE",
+            "bit_start": null,
+            "bit_length": null,
+            "meaning": "离散值映射表",
+            "formula": "1=REFUEL, 2=ORBIT, 3=RECALL, 4=RETURN_TO_BASE, 8=INVESTIGATE/INTERROGATE, 9=CLEAR_TO_DROP, 11=INTERVENE, 13=AIR-TO-SURFACE, 14=AIR-TO-AIR, 15=SEARCH_AND_RESCUE, 16=COMBAT_AIR_PATROL, 18=FOLLOWED_BY, 20=CLOSE_AIR_SUPPORT, 22=AERIAL_RECONNAISSANCE, 24=SHADOW, 31=COVER, 32=VISUAL_IDENTIFICATION, 39=SUPPRESSION_OF_ENEMY_AIR, 40=ARMED_RECONNAISSANCE, 41=ATTACK, 45=FIGHTER_SWEEP, 48=ATTACK_TARGET_COMPLEX",
+            "range_min": null,
+            "range_max": null
+          }
+        ],
+        "extract_method": "rule",
+        "chunk_index": 0,
+        "total_chunks": 2
+      }
+    },
+    {
+      "block_id": 7,
+      "page_num": 3,
+      "content": "Air-To-Surface 13 Table 5-4-J12.0-20\nAir-To-Air 14 Table 5-4-J12.0-20\nSearch And Rescue 15 Table 5-4-J12.0-17\nCombat Air Patrol 16 Table 5-4-J12.0-18\nTable 5-4-J12.0-5\nfollowed by\nClose Air Support 20 Table 5-4-J12.0-6 (CAS\nContact Point\nInformation)\nM-63",
+      "type": "text",
+      "metadata": {
+        "protocol_fields": [
+          {
+            "field_name": "MISSION_ASSIGNMENT_DISCRETE",
+            "bit_start": null,
+            "bit_length": null,
+            "meaning": "离散值映射表",
+            "formula": "1=REFUEL, 2=ORBIT, 3=RECALL, 4=RETURN_TO_BASE, 8=INVESTIGATE/INTERROGATE, 9=CLEAR_TO_DROP, 11=INTERVENE, 13=AIR-TO-SURFACE, 14=AIR-TO-AIR, 15=SEARCH_AND_RESCUE, 16=COMBAT_AIR_PATROL, 18=FOLLOWED_BY, 20=CLOSE_AIR_SUPPORT, 22=AERIAL_RECONNAISSANCE, 24=SHADOW, 31=COVER, 32=VISUAL_IDENTIFICATION, 39=SUPPRESSION_OF_ENEMY_AIR, 40=ARMED_RECONNAISSANCE, 41=ATTACK, 45=FIGHTER_SWEEP, 48=ATTACK_TARGET_COMPLEX",
+            "range_min": null,
+            "range_max": null
+          }
+        ],
+        "extract_method": "rule",
+        "chunk_index": 1,
+        "total_chunks": 2
+      }
+    },
+    {
+      "block_id": 8,
+      "page_num": 4,
+      "content": "MIL-STD-6016D\nAPPENDIX M\nTABLE M.1.2-1. J12.0 Mission Assignment Transmit Tables (Sheet 3 of\n3)\nJ12.0 MAD\nMission Assignment Transmit Table\nValue\nEscort 23 Table 5-4-J12.0-12\nM.1.2.3.2 With the exception of mission assignments listed in\nTable M.1.1-3 having No Statement as a valid objective and Attack\n(final execution authority), sufficient information is included in the\nJ12.0 Mission Assignment message to ensure that the recipient can\nestablish the target, track, point, line, or single point area which\nis the objective of the assignment in cases where the objective is not\nalready held by the recipient in its database.\nM.1.2.3.3 The Environment field in the J12.0C1 word is needed by\nthe receiver to establish a track file when the mission objective is\nnot already held. With the exception of mission assignments listed in\nTable M.1.1-3 having No Statement as a valid objective and Attack\n(final execution authority), the C1 word shall be transmitted, even",
+      "type": "text",
+      "metadata": {
+        "protocol_fields": [
+          {
+            "field_name": "MISSION_ASSIGNMENT_DISCRETE",
+            "bit_start": null,
+            "bit_length": null,
+            "meaning": "离散值映射表",
+            "formula": "23=ESCORT",
+            "range_min": null,
+            "range_max": null
+          }
+        ],
+        "extract_method": "rule",
+        "chunk_index": 0,
+        "total_chunks": 2
+      }
+    },
+    {
+      "block_id": 9,
+      "page_num": 4,
+      "content": "(final execution authority), the C1 word shall be transmitted, even\nwhen all the fields in the C1 word are set to 0 or No Statement\nvalues.\nM.1.2.3.4 The Exercise Indicator field in the J12.0C2 word shall\nbe set to the exercise status of the mission objective since it\npertains to the Identity Amplification Descriptor of the mission\nobjective rather than to the assignment itself.\nM.1.2.3.5 Since the Altitude field in the J12.0C2 word does not\nexplicitly accommodate negative or unknown altitude values, a No\nStatement value shall be specified when the altitude of the mission\nobjective is either negative or unknown.\nM.1.2.3.6 The Elevation field in the J12.0C3 word and the\nJ12.0C5 word shall be set as follows:\nM-64",
+      "type": "text",
+      "metadata": {
+        "protocol_fields": [
+          {
+            "field_name": "MISSION_ASSIGNMENT_DISCRETE",
+            "bit_start": null,
+            "bit_length": null,
+            "meaning": "离散值映射表",
+            "formula": "23=ESCORT",
+            "range_min": null,
+            "range_max": null
+          }
+        ],
+        "extract_method": "rule",
+        "chunk_index": 1,
+        "total_chunks": 2
+      }
+    }
+  ]
+}

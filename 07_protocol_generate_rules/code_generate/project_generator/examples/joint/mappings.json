@@ -1,0 +1,99 @@
+{
+  "version": "1.0",
+  "project_name": "demo_joint",
+  "runtime": {
+    "loop_sleep_ms": 2,
+    "check_data_interval_ms": 5000,
+    "endpoints": [
+      {
+        "ip": "127.0.0.1",
+        "port": 4100,
+        "type": "udp",
+        "recv": 1,
+        "feed_back_port": 4100,
+        "name": "A_CACHE"
+      },
+      {
+        "ip": "127.0.0.1",
+        "port": 4101,
+        "type": "udp",
+        "recv": 1,
+        "feed_back_port": 4101,
+        "name": "B_CACHE"
+      },
+      {
+        "ip": "127.0.0.1",
+        "port": 5100,
+        "type": "udp",
+        "recv": 0,
+        "feed_back_port": 4100,
+        "name": "Target_Sum"
+      }
+    ]
+  },
+  "conversions": [
+    {
+      "name": "JoinSourcesToTargetSum",
+      "mode": "joint",
+      "sources": [
+        {
+          "alias": "a",
+          "protocol": "Source_A"
+        },
+        {
+          "alias": "b",
+          "protocol": "Source_B"
+        }
+      ],
+      "target": {
+        "protocol": "Target_Sum"
+      },
+      "runtime": {
+        "process_method": "JointSumDataPro",
+        "response_enabled": true,
+        "send_mode": "cache",
+        "cache_name": "Target_Sum",
+        "cache_num": 3,
+        "sources": [
+          {
+            "alias": "a",
+            "message_name": "A_CACHE",
+            "display_name": "Joint.Source.A",
+            "fetches": [
+              {"count": 1, "cycle_ms": 0},
+              {"count": 2, "cycle_ms": 50}
+            ]
+          },
+          {
+            "alias": "b",
+            "message_name": "B_CACHE",
+            "display_name": "Joint.Source.B",
+            "fetches": [
+              {"count": 1, "cycle_ms": 0}
+            ]
+          }
+        ]
+      },
+      "rules": [
+        {
+          "target_field": "sum_value",
+          "formula": "a.value_a + b.value_b",
+          "source_fields": ["a.value_a", "b.value_b"],
+          "rule_type": "expression",
+          "when": null,
+          "default_value": 0,
+          "description": "联合求和"
+        },
+        {
+          "target_field": "quality_flag",
+          "formula": "1",
+          "source_fields": [],
+          "rule_type": "const",
+          "when": null,
+          "default_value": null,
+          "description": "固定质量标记"
+        }
+      ]
+    }
+  ]
+}
