@@ -1,0 +1,31 @@
+{
+  "messageType": "temp",
+  "recvIp": "127.0.0.1",
+  "recvPort": 4100,
+  "sendIp": "127.0.0.1",
+  "sendPort": 5100,
+  "messageRuleDetailList": [
+    {
+      "messageName": "Temp_Report",
+      "delayRequirement": 2,
+      "filterConfig": {
+        "crcCheck": {
+          "enabled": true,
+          "bindElement": "temperature_c"
+        },
+        "loopConfig": {
+          "type": "NONE"
+        },
+        "aggregation": {
+          "mode": "SINGLE",
+          "count": null,
+          "timeMs": null
+        },
+        "aggregationType": {
+          "type": "TIME",
+          "bindElement": null
+        }
+      }
+    }
+  ]
+}
