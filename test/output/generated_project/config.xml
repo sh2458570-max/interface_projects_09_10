@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<NameSpace>
-    <Item ip="127.0.0.1" port="4100" type="udp" recv="0" feedBackPort="4101" name="temp_sensor" />
-    <Item ip="127.0.0.1" port="5100" type="udp" recv="0" feedBackPort="5101" name="temp_report" />
-</NameSpace>

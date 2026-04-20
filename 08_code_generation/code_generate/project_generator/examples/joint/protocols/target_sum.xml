@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<NameSpace>
-  <Item name="sum_value" defaultValue="0">16</Item>
-  <Item name="quality_flag" defaultValue="0">8</Item>
-</NameSpace>
