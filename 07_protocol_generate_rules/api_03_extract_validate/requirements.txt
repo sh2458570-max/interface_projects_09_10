@@ -1,0 +1,6 @@
+flask>=2.0.0
+transformers>=4.0.0
+torch>=2.0.0
+
+PyYAML>=6.0.0
+modelscope>=1.19.0

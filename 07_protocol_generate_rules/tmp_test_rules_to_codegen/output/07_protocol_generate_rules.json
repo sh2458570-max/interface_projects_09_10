@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "project_name": "temp_sensor_to_temp_report",
+  "conversions": [
+    {
+      "name": "Temp_SensorToTemp_Report",
+      "mode": "simple",
+      "sources": [
+        {
+          "alias": "temp_sensor",
+          "protocol": "Temp_Sensor"
+        }
+      ],
+      "target": {
+        "protocol": "Temp_Report"
+      },
+      "rules": [
+        {
+          "target_field": "temperature_c",
+          "formula": "temp_sensor.temperature",
+          "source_fields": [
+            "temp_sensor.temperature"
+          ],
+          "rule_type": "direct",
+          "when": null,
+          "default_value": null,
+          "description": "温度直传"
+        },
+        {
+          "target_field": "alarm",
+          "formula": "0",
+          "source_fields": [],
+          "rule_type": "const",
+          "when": null,
+          "default_value": "0",
+          "description": "无法可靠转换，默认置 0"
+        }
+      ]
+    }
+  ]
+}
